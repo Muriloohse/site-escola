@@ -8,7 +8,7 @@ body {
 }
 
 .cabecalho{
-    background-color: #383D58;
+    background-color: #30244d;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -24,22 +24,29 @@ body {
     font-size: 24px;
 }
 .escola{
-    background-image: linear-gradient(#383D58, #ffcdd4);
+    background-image: linear-gradient(#30244d, #826cb9);
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 0;
+    padding: 24px 0;
 }
 .escola-conteudo{
-    width: 25%;
+    width: 35%;
 }
 .escola-titulo{
-    padding: 14px 0;
+    padding: 24px 0;
 }
 .estudante-imagem{
     width: 120px;
 }
 .estudante-icone{
     width: 24px;
+}
+.estudante-div{
+    text-align: center;
+}
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
 }
