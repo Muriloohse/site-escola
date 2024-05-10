@@ -6,9 +6,13 @@
 body {
     font-family: "poppins", sans-serif;
 }
+footer{
+    background-color: black;
+    padding: 15px 0;
+}
 
 .cabecalho{
-    background-color: #30244d;
+    background-color: #00A894;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -24,7 +28,7 @@ body {
     font-size: 24px;
 }
 .escola{
-    background-image: linear-gradient(#30244d, #826cb9);
+    background-image: linear-gradient(#00A894, #48C97E);
     color: white;
     display: flex;
     justify-content: center;
@@ -49,4 +53,8 @@ body {
 .estudante-titulo{
     text-align: center;
     padding: 50px 0;
+}
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
 }
